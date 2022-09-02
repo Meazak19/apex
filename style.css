@@ -213,7 +213,7 @@ body {
 
 .facts img {
     width: 100%;
-
+    min-height: 150px;
 }
 
 .facts {
@@ -225,9 +225,13 @@ body {
     position: absolute;
     top: 0;
     padding: 30px;
+    display: flex;
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     background-color: rgba(0, 0, 0, 0.566);
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fctOverlay h2 {
@@ -666,7 +670,7 @@ hr {
     padding-bottom: 75px;
 }
 .pl0{
-    padding-left: 0 !important;
+    padding-left: 10px !important;
 }
 .p0{
     padding: 0 !important;
@@ -747,7 +751,68 @@ hr {
 }
 
 
+.carousel-control-next, .carousel-control-prev {
+font-size: 35px;
+color: #fff !important;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover {
+color: #FDA12B !important;
+}
+.carousel-indicators li:hover{
+    cursor: pointer !important;
+}
 
+::selection {
+    background-color: #FDA12B;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FDA12B;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff9100;
+}
+.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.collapsing{
+    /* transition: .1s !important;
+    overflow: hidden !important;
+    animation: none !important;
+    visibility: hidden !important; */
+    transition: none !important;
+    position: absolute;
+    visibility: hidden !important;
+    z-index: -2 !important;
+}
+.collapse.show {
+    display: block;
+    position: absolute;
+    top: 0;
+    background: rgb(255, 255, 255);
+    right: 0;
+    height: 100vh;
+    padding-top: 80px;
+    width: 220px;
+    transition: all .1s ease-in-out;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    z-index: 9999999 !important;
+}
 
 @media (min-width: 769px) and (max-width: 1200px) {}
 
@@ -760,4 +825,161 @@ hr {
 
 @media (min-width: 450px) and (max-width: 991px) {}
 
-@media (min-width: 300px) and (max-width: 449px) {}
+@media (min-width: 200px) and (max-width: 449px) {
+    img.w-100.carous01 {
+        height: 55vh;
+    }
+    .carousel-caption h1{
+        font-size: 26px;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .carousel-caption{
+        padding: 0 30px !important;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+    .carousel-indicators li {
+        width: 15px;
+    }
+    .org-btn{
+        padding: 10px 25px;
+    }
+    .abtSec{
+        flex-direction: column;
+    }
+    .abt-img {
+        width: 95%;
+    }
+    .img2 h5 {
+        color: #fff;
+        font-size: 20px;
+    }
+    .abt-text {
+        width: 98%;
+        padding-left: 15px;
+    }    
+    .bdr-lef h2 {
+        font-size: 30px;
+    }
+    .fctOverlay h2 {
+        font-size: 80px;
+    }
+    .factsec{
+        flex-wrap: wrap;
+    }
+    .facts{
+        width: 100%;
+    }
+    .abt-spl{
+        flex-direction: column;
+    }
+    .abt-spl h3 {
+        width: 98%;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+    }
+    .abt-spl .fa-check {
+        font-size: 25px;
+    }  
+    .padb{
+        padding-bottom: 25px;
+    }  
+    .abt-spll {
+        flex-direction: column;
+    }
+    .abt-spll .ch4 {
+        width: 98% !important;
+    }
+    
+   .smp{
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .abt-spll .ch4 {
+        padding: 0 !important;
+    }
+    .abt-img.btns {
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .serLists{
+        width: 98%;
+    }
+    .bdr-lef h2 {
+        font-size: 24px;
+    }
+    .abt-text p {
+        font-size: 14px;
+    }
+    .for {
+        padding: 0 8px;
+    }
+    .team{
+        flex-direction: column;
+    }
+    .teamPer {
+        width: 98%;
+    }
+    .abtSec {
+        padding: 20px 0;
+    }
+    .testi{
+        flex-direction: column;
+    }
+    .ch4.ch3 {
+        width: 48% !important;
+    }
+    .abt-spll.r2.p0 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .testim{
+        width: 100%;
+    }
+    .cus p{
+        font-size: 16px;
+    }
+    .footers{
+        flex-direction: column;
+    }
+    .footersList{
+        width: 98%;
+    }
+    .footers h3{
+        font-size: 20px;
+    }
+    .abt-spll .ch4 {
+        margin: 2px 0;
+    }
+    .nam{
+        flex-direction: column;
+    }
+    .nam input{
+        width: 98%;
+    }
+    .for{
+        width: 100% !important;
+    }
+    .img2{
+        padding: 15px;
+        border: 25px solid #fff;
+    }
+    .testim{
+        padding-top: 50px;
+    }
+}
