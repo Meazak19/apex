@@ -720,6 +720,7 @@ hr {
 .maps{
     min-height: 450px;
     height: 100%;
+    width: 100%;
 }
 
 /* ERROR 404-PAGE  */
@@ -813,8 +814,204 @@ color: #FDA12B !important;
     cursor: pointer;
     z-index: 9999999 !important;
 }
+.ww{
+    padding-left: 10px !important;
+    padding: 50px;
+}
 
-@media (min-width: 769px) and (max-width: 1200px) {}
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .carousel-caption h1{
+        font-size: 45px;
+    }
+    .img2{
+        border: 20px solid #fff;
+    }
+    .abt-spl {
+        width: 90%;
+    }
+    .plef{
+        padding-left: 20px !important;
+    }
+    .facts{
+        width: 50%;
+    }
+    .factsec{
+        flex-wrap: wrap;
+    }
+    .abt-img{
+        display: flex;
+        align-items: center;
+    }
+    .abt-img.for {
+        display: inline-block;
+    }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+
+    .carousel-caption h1{
+        font-size: 35px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+    .carousel-caption{
+        padding: 0 50px !important;
+    }
+    .carousel-indicators li {
+        width: 20px;
+    }
+  .img1{
+    width: 70% !important;
+  }
+    .carousel-control-next, .carousel-control-prev {
+        font-size: 20px;
+    }
+
+    /* ///// */
+    .abtSec{
+        flex-direction: column;
+    }
+    .abt-img {
+        width: 98%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .img2 h5 {
+        color: #fff;
+        font-size: 28px;
+    }
+    .abt-text {
+        width: 98%;
+        padding-left: 15px;
+    }
+    .img2{
+        border: 20px solid #fff;
+    }
+    .bdr-lef h2 {
+        font-size: 40px !important;
+    }
+    .fctOverlay h2 {
+        font-size: 120px;
+    }
+    .factsec{
+        flex-wrap: wrap;
+    }
+    .facts{
+        width: 50%;
+    }
+    .abt-spl{
+        flex-direction: row;
+        align-items: flex-start ;
+    }
+    .abt-img.for {
+        display: inline-block !important;
+    }
+    .abt-spl h3 {
+        width: 98%;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+    }
+    .abt-spl .fa-check {
+        font-size: 25px;
+    } 
+    .abt-spll {
+        flex-direction: row;
+    }
+    .abt-spll .ch4 {
+        width: 48% !important;
+    }
+    .padb{
+        padding-bottom: 25px;
+    }
+    .smp{
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .abt-spll .ch4 {
+        padding: 0 !important;
+    }
+    .abt-img.btns {
+        display: flex;
+        justify-content: start !important;
+        align-items: flex-end;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .services{
+        flex-direction: row !important;
+    }
+    .serLists{
+        width: 48%;
+    }
+    .bdr-lef h2 {
+        font-size: 24px;
+    }
+    .abt-text p {
+        font-size: 14px;
+    }
+    .for {
+        padding: 0 8px;
+    }
+    .team{
+        flex-direction: row;
+    }
+    .teamPer {
+        width: 98%;
+    }
+    .abtSec {
+        padding: 20px 0;
+    }
+    .testi{
+        flex-direction: column;
+    }
+    .ch4.ch3 {
+        width: 48% !important;
+    }
+    .abt-spll.r2.p0 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .testim{
+        width: 100%;
+    }
+    .ft{
+        margin-top: 50px;
+    }
+    .cus p{
+        font-size: 16px;
+    }
+    .footers{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footersList{
+        width: 48%;
+    }
+    .footers h3{
+        font-size: 20px;
+    }
+    .abt-spll .ch4 {
+        margin: 2px 0;
+    }
+    .for{
+        width: 100% !important;
+    }
+    .img2{
+        padding: 15px;
+        border: 25px solid #fff;
+    }
+    .testim{
+        padding-top: 50px;
+    }
+
+}
 
 /* NAVBAR */
 @media (max-width: 991px) {
@@ -822,10 +1019,213 @@ color: #FDA12B !important;
         padding: 25px 0 !important;
     }
 }
+@media (min-width: 600px) and (max-width: 900px) {
+    .team{
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    .teamPer {
+        width: 48% !important;
+    }
+    .footers{
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    .footersList{
+        width: 48% !important;
+    }
+    .nam{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+    .nam input{
+        width: 48% !important;
+    }
+    .services{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+    .serLists{
+        width: 48% !important;
+    }
+    .facts{
+        width: 50% !important;
+    }
+    .facts h2{
+        font-size: 60px !important;
+    }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+    .carousel-caption h1{
+        font-size: 28px;
+    }
+    .carousel-caption p{
+        font-size: 18px;
+    }
+    .carousel-caption{
+        padding: 0 50px !important;
+    }
+    .carousel-indicators li {
+        width: 15px;
+    }
+    img.w-100.carous01 {
+        height: 55vh;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        font-size: 20px;
+    }
+    .org-btn{
+        padding: 10px 25px;
+    }
+    .abtSec{
+        flex-direction: column;
+    }
+    .abt-img {
+        width: 95%;
+    }
+    .img2 h5 {
+        color: #fff;
+        font-size: 28px;
+    }
+    .abt-text {
+        width: 98%;
+        padding-left: 15px;
+    }
+    .img2{
+        border: 20px solid #fff;
+    }
+    .bdr-lef h2 {
+        font-size: 30px;
+    }
+    .fctOverlay h2 {
+        font-size: 120px;
+    }
+    .factsec{
+        flex-wrap: wrap;
+    }
+    .facts{
+        width: 100%;
+    }
+    .abt-spl{
+        flex-direction: column;
+    }
+    .abt-spl h3 {
+        width: 98%;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+    }
+    .abt-spl .fa-check {
+        font-size: 25px;
+    } 
+    .abt-spll {
+        flex-direction: column;
+    }
+    .abt-spll .ch4 {
+        width: 98% !important;
+    }
+    .padb{
+        padding-bottom: 25px;
+    }
+    .smp{
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .abt-spll .ch4 {
+        padding: 0 !important;
+    }
+    .abt-img.btns {
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .serLists{
+        width: 98%;
+    }
+    .bdr-lef h2 {
+        font-size: 24px;
+    }
+    .abt-text p {
+        font-size: 14px;
+    }
+    .for {
+        padding: 0 8px;
+    }
+    .team{
+        flex-direction: column;
+    }
+    .teamPer {
+        width: 98%;
+    }
+    .abtSec {
+        padding: 20px 0;
+    }
+    .testi{
+        flex-direction: column;
+    }
+    .ch4.ch3 {
+        width: 48% !important;
+    }
+    .abt-spll.r2.p0 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .testim{
+        width: 100%;
+    }
+    .ft{
+        margin-top: 50px;
+    }
+    .cus p{
+        font-size: 16px;
+    }
+    .footers{
+        flex-direction: column;
+    }
+    .footersList{
+        width: 98%;
+    }
+    .footers h3{
+        font-size: 20px;
+    }
+    .abt-spll .ch4 {
+        margin: 2px 0;
+    }
+    .nam{
+        flex-direction: column;
+    }
+    .nam input{
+        width: 98%;
+    }
+    .for{
+        width: 100% !important;
+    }
+    .img2{
+        padding: 15px;
+        border: 25px solid #fff;
+    }
+    .testim{
+        padding-top: 50px;
+    }
+}
 
-@media (min-width: 450px) and (max-width: 991px) {}
-
-@media (min-width: 200px) and (max-width: 449px) {
+/* MOBILE */
+@media (min-width: 200px) and (max-width: 499px) {
+    .banner-all h2 {
+        font-size: 36px;
+    }
     img.w-100.carous01 {
         height: 55vh;
     }
