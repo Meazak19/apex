@@ -28,6 +28,9 @@ body {
     z-index: 9999999 !important;
     box-shadow: 2px 2px 5px #FDA12B;
 }
+a.nav-link:hover {
+    color: #FDA12B !important;
+}
 .navbar-nav .nav-link {
     font-size: 16px;
     color: #8d9297;
@@ -94,8 +97,7 @@ body {
     transition: .3s;
     cursor: pointer;
     transform: scale(1);
-    transition: .5s;
-
+    transition: all .5s;
 }
 
 .org-btn:hover {
@@ -813,9 +815,6 @@ color: #FDA12B !important;
     width: 220px;
     transition: all .1s ease-in-out;
 }
-.collapse.show:active{
-    background-color: red;
-}
 .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer;
     z-index: 9999999 !important;
@@ -824,6 +823,12 @@ color: #FDA12B !important;
     padding-left: 10px !important;
     padding: 50px;
 }
+
+
+/* .navbar-toggler-icon:focus-visible {
+    background-image: url("./images/fav.png") !important;
+} */
+
 
 @media (min-width: 1001px) and (max-width: 1200px) {
     .carousel-caption h1{
