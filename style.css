@@ -706,9 +706,7 @@ hr {
     color: #fff;
     transition: .3s;
   }
-  .dropdown-item:hover html {
-    color: #182333 !important;
-  }
+  
 /* SERVICES */
 
 .app input {
